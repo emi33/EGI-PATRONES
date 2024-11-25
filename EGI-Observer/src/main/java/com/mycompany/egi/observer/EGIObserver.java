@@ -7,7 +7,11 @@ package com.mycompany.egi.observer;
 /**
  Sistema de Notificaciones para Cambios de Precios de Productos
 Descripción del Problema:
-utilizamos el patron observer para resolver el problema
+utilizamos el patron observer para resolver el problema, porque podemos crear instancias de productos 
+* e instancias de clientes. Los productos se comportan como Observables y los clientes como observadores. 
+Es optimo porque podemos crear un numero indefinido de clientes, y cada cliente se suscribe o desuscribe de una 
+* instancia de producto. Producto guarda en una lista los observadores y notifica gracias a la implementacion de 
+* SubjectObservable
 
  **/
 public class EGIObserver {
