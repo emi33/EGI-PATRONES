@@ -1,0 +1,5 @@
+com/mycompany/egi/observer/SubjectObservable.class
+com/mycompany/egi/observer/Product.class
+com/mycompany/egi/observer/EGIObserver.class
+com/mycompany/egi/observer/Observer.class
+com/mycompany/egi/observer/Client.class
